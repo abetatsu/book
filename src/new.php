@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>読書ログ</h1>
-<form action="index.php" method="post">
+<form action="create.php" method="post">
      <div>
           <label for="title">書籍名</label>
           <input type="text" name="title" id="title">
@@ -22,15 +22,15 @@
           <label>読書状況</label>
           <div>
                <div>
-                    <input type="radio" name="status" id="yet">
+                    <input type="radio" name="status" id="yet" value="未読">
                     <label for="yet">未読</label>
                </div>
                <div>
-                    <input type="radio" name="status" id="now">
+                    <input type="radio" name="status" id="now" value="読んでいる">
                     <label for="now">読んでいる</label>
                </div>
                <div>
-                    <input type="radio" name="status" id="done">
+                    <input type="radio" name="status" id="done" value="読了">
                     <label for="done">読了</label>
                </div>
           </div>
