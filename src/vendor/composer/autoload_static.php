@@ -18,6 +18,7 @@ class ComposerStaticInit20e8ced5ed6ec9dbc6e5df4c76d5b27e
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'ScssPhp\\ScssPhp\\' => 16,
         ),
         'P' => 
         array (
@@ -45,6 +46,10 @@ class ComposerStaticInit20e8ced5ed6ec9dbc6e5df4c76d5b27e
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'ScssPhp\\ScssPhp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/scssphp/scssphp/src',
         ),
         'PhpOption\\' => 
         array (
